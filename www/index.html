@@ -1,0 +1,162 @@
+<!-- The word I got for this project is CLARITY. Currently I have been setting up a poison dart frog enclosure. These animals are very sensitive and need to have a specific environment in order for them to thrive. There is a lot of information about these animals on the internet. HOWEVER, a lot of this information is inaccurate or out of date. So this gave me the idea to make this the focus of my project and provide clarity for those looking for the information on these animals. Initially my first thought was to make one about various pets in general but that would be too large of a scope for this project. (I work at a pet store and there is a lot of inaccurate information about animals online. Its comparable to looking up medical symptoms on webmd...lol) -->
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, please refer to the docs:
+            https://cordova.apache.org/docs/en/latest/
+        Some notes:
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline' fonts.googleapis.com; media-src *; img-src 'self' data: content:; font-src 'self' data: fonts.gstatic.com;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/framework7-bundle.min.css"> 
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap" rel="stylesheet">
+        
+        <title>Dart Frogs</title>
+
+    </head>
+    <body>
+        <div id="app">
+        <!-- panel components go here -->
+         <!-- Right panel, with cover effect -->
+         <div class=""></div> 
+            <div class="panel panel-right panel-cover">
+                ... panel content goes here ...
+            </div>
+        
+            <div class="view view-main">
+                
+            <!-- component will apply to all pages in view -->
+            <!-- Bottom Toolbar -->
+                <div class="toolbar toolbar-bottom">
+                    <div class="toolbar-inner">
+                    <a href="/page2/" class="link">Environment</a>
+                    <a href="/page3/" class="link">Nutrition</a>
+
+                    <a href="/"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-labelledby="homeAlt2IconTitle">
+                        <title id="homeAlt2IconTitle">Home</title>
+                        <path d="M2 12L5 9.3M22 12L19 9.3M19 9.3L12 3L5 9.3M19 9.3V21H5V9.3"></path>
+                      </svg></a>
+
+                    <a href="/page4/" class="link">Behavior</a>
+                    
+                    <a href="/page5/" class="link">Maintenance</a>
+                    </div>
+                </div>
+            </div>    
+                <div class="page" data-name="home">
+                <!-- component is fixed to the page -->
+                    
+                    <div class="page-content">
+                        
+                    
+                      <h1>Dart Frogs Care Guide</h1>
+                      <div class="terrarium">
+                        <svg id="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.52 240.52">
+                            <defs>
+                              <style>
+                                .cls-1 {
+                                  fill: #231f20;
+                                }
+                              </style>
+                            </defs>
+                            <circle class="cls-1" cx="120.26" cy="120.26" r="71.89"/>
+                            <path class="cls-1" d="M120.26,35.28c-3.31,0-6-2.69-6-6V6c0-3.31,2.69-6,6-6s6,2.69,6,6V29.28c0,3.31-2.69,6-6,6Z"/>
+                            <path class="cls-1" d="M29.28,126.26H6c-3.31,0-6-2.69-6-6s2.69-6,6-6H29.28c3.31,0,6,2.69,6,6s-2.69,6-6,6Z"/>
+                            <path class="cls-1" d="M120.26,240.52c-3.31,0-6-2.69-6-6v-23.28c0-3.31,2.69-6,6-6s6,2.69,6,6v23.28c0,3.31-2.69,6-6,6Z"/>
+                            <path class="cls-1" d="M234.52,126.26h-23.28c-3.31,0-6-2.69-6-6s2.69-6,6-6h23.28c3.31,0,6,2.69,6,6s-2.69,6-6,6Z"/>
+                            <path class="cls-1" d="M55.93,61.93c-1.54,0-3.07-.59-4.24-1.76l-16.46-16.46c-2.34-2.34-2.34-6.14,0-8.49s6.14-2.34,8.49,0l16.46,16.46c2.34,2.34,2.34,6.14,0,8.49-1.17,1.17-2.71,1.76-4.24,1.76Z"/>
+                            <path class="cls-1" d="M39.47,207.05c-1.54,0-3.07-.59-4.24-1.76-2.34-2.34-2.34-6.14,0-8.49l16.46-16.46c2.34-2.34,6.14-2.34,8.49,0s2.34,6.14,0,8.49l-16.46,16.46c-1.17,1.17-2.71,1.76-4.24,1.76Z"/>
+                            <path class="cls-1" d="M201.05,207.05c-1.54,0-3.07-.59-4.24-1.76l-16.46-16.46c-2.34-2.34-2.34-6.14,0-8.49,2.34-2.34,6.14-2.34,8.49,0l16.46,16.46c2.34,2.34,2.34,6.14,0,8.49-1.17,1.17-2.71,1.76-4.24,1.76Z"/>
+                            <path class="cls-1" d="M184.59,61.93c-1.54,0-3.07-.59-4.24-1.76-2.34-2.34-2.34-6.14,0-8.49l16.46-16.46c2.34-2.34,6.14-2.34,8.49,0,2.34,2.34,2.34,6.14,0,8.49l-16.46,16.46c-1.17,1.17-2.71,1.76-4.24,1.76Z"/>
+                          </svg>
+                        <div class="terrarium-grid">
+                            <div class="foodcolumn">
+                                <svg id="bug" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 157.86 199.98">
+                                    <defs>
+                                      <style>
+                                        .bugcolor {
+                                          fill: #231f20;
+                                        }
+                                      </style>
+                                    </defs>
+                                    <path class="bugcolor" d="M150.57,139.91c.2,.03,.39,.06,.59,.09-6.29-.96-12.47-2.44-18.51-4.41v-14.55c6.58,.06,13.14-.44,19.7-1.37,1.73-.25,3.65-2.02,4.48-3.45,.94-1.61,1.34-3.98,.76-5.78-.59-1.81-1.71-3.57-3.45-4.48-1.77-.94-3.42-1.04-5.34-.81,.2-.03,.4-.05,.6-.08-5.56,.74-11.15,1.06-16.75,.99v-17.39c4.29-2.18,8.58-4.36,12.87-6.53,3.5-1.78,4.8-7,2.69-10.26-2.31-3.58-6.51-4.59-10.26-2.69-2.49,1.26-4.98,2.53-7.46,3.79-3.79-13.03-12.33-24.06-23.62-31.06,.17-.49,.33-.99,.49-1.48,.86-2.72,1.72-5.43,2.58-8.15,1.49-4.69,2.9-9.41,4.74-13.97,1.1-2.47,2.36-4.85,3.89-7.09,2.22-3.25,.72-8.46-2.69-10.26-3.81-2.01-7.89-.78-10.26,2.69-4.35,6.36-6.73,13.87-9.04,21.15-1.16,3.67-2.33,7.35-3.49,11.02-4.71-1.33-9.67-2.06-14.8-2.06-5.74,0-11.28,.9-16.48,2.56-4.74-10-11.37-19.11-19.53-26.58-2.9-2.65-7.78-3.08-10.61,0-2.65,2.88-3.09,7.78,0,10.61,2.07,1.9,4.05,3.89,5.91,6,.91,1.03,1.79,2.08,2.64,3.15,.09,.12,.16,.21,.22,.27,.08,.11,.16,.23,.24,.33,.41,.55,.81,1.11,1.2,1.67,2.45,3.49,4.6,7.18,6.45,11.02-14.69,9.74-24.41,26.43-24.41,45.34v.23c-4.37-1.7-8.81-3.2-13.32-4.46-3.78-1.06-8.33,1.3-9.23,5.24-.91,3.98,1.19,8.09,5.24,9.23,5.22,1.46,10.34,3.24,15.36,5.3,.65,.28,1.3,.57,1.95,.86v9.88c-4.92-1.04-9.74-2.47-14.43-4.31-1.7-.67-4.27-.13-5.78,.76-1.56,.91-3.04,2.69-3.45,4.48-.44,1.92-.34,4.07,.76,5.78,1.12,1.74,2.57,2.69,4.48,3.45,5.95,2.34,12.13,4.01,18.42,5.08v11.43c-3.54,1.83-7.15,3.52-10.82,5.1-1.79,.74-3.58,1.47-5.39,2.15-1.87,.71-3.44,1.66-4.48,3.45-.94,1.61-1.34,3.98-.76,5.78,.59,1.81,1.71,3.57,3.45,4.48,1.69,.89,3.92,1.46,5.78,.76,4.56-1.72,9.04-3.62,13.46-5.68,5.29,24.48,27.1,42.88,53.14,42.88,28.11,0,51.3-21.44,54.09-48.82,5.74,1.63,11.59,2.82,17.54,3.68,1.72,.25,4.07-.92,5.27-2.05,1.35-1.28,2.4-3.44,2.34-5.34-.06-1.91-.65-3.9-2.05-5.27-1.44-1.39-2.99-1.95-4.89-2.27Z"/>
+                                </svg>
+                            </div>
+                            <div class="tcolumn">
+                                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 316.09 541.38">
+                                    <defs>
+                                      <style>
+                                        .cls-1 {
+                                          fill: #ff49ff;
+                                        }
+                                      </style>
+                                    </defs>
+                                    <rect class="cls-1" width="316.09" height="541.38"/>
+                                  </svg>
+                            </div>
+                            <div class="hcolumn">
+                                <svg id="drops" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 157.86 199.98">
+                                    <defs>
+                                      <style>
+                                        .drip {
+                                          fill: #231f20;
+                                        }
+                                      </style>
+                                    </defs>
+                                    <path class="cls-1" d="M50.52,199.98h0c-28.03,0-47.67-27.68-38.41-54.14L41.89,60.78c1.28-3.67,4.75-6.12,8.63-6.12h0c3.89,0,7.35,2.46,8.63,6.12l29.78,85.07c9.26,26.46-10.38,54.14-38.41,54.14Z"/>
+                                    <path class="cls-1" d="M108.34,88.88h0c-17.14,0-29.15-16.93-23.49-33.11L103.06,3.75c.79-2.24,2.9-3.75,5.28-3.75h0c2.38,0,4.49,1.5,5.28,3.75l18.21,52.03c5.66,16.18-6.35,33.11-23.49,33.11Z"/>
+                                  </svg>
+
+
+                            </div>
+                        </div>
+
+
+                      </div>
+                    
+                        
+                        
+                    
+                    </div>
+                </div>
+        </div>
+        
+        
+        <script src="cordova.js"></script>
+        <script src="js/framework7-bundle.min.js"></script>
+        <script src="js/jquery-3.6.1.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
