@@ -1,6 +1,76 @@
+body {
+  min-height: 100%;
+  background: var(--grey--light);
+}
+nav {
+  font-family: 'Passion One', cursive;
+  font-size: 20px;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 75px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+/*SIDEBAR TUTORIAL https://www.youtube.com/watch?v=dEdwDijoceY*/
+nav .logo {
+  display: flex;
+  align-items: center;
+  margin: 0 24px;
+}
+
+.logo .menu-icon {
+  font-size: 24px;
+  margin-right: 14px;
+}
+
+nav .sidebar {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  padding: 20px;
+  background-color: goldenrod;
+  height: 100%;
+  width: 260px;
+  transition: all 0.5s ease;
+}
+
+nav.open .sidebar {
+  
+  left: 0;
+  
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 1000vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.menu-icon {
+  width: 24x;
+  height: 24px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
 
 .page-content {
   padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b9348;
+  background-image: url("C:\Users\mykah\OneDrive\Desktop\Clarity-A1\www\img\app-plantbg.jpg");
 }
 ul li {
   background-color:transparent;
@@ -8,6 +78,7 @@ ul li {
 h1 {
     font-family: 'Passion One', cursive;
     color:aliceblue;
+    background-color: #2b9348;
 }
 
 
@@ -20,11 +91,7 @@ h1 {
     background-color: #bfd200;
 }
 
-
-.page-content {
-  background-color: #2b9348;
-  background-image: url("C:\Users\mykah\OneDrive\Desktop\Clarity-A1\www\img\app-plantbg.jpg");
-}
+/*ACCORDIAN STUFF*/
 .accordion-item {
   background-color: #80b918;
   text-transform: none;
@@ -45,9 +112,7 @@ h1 {
     --white: #ffffff;
   }
 
-  body {
-    background: var(--grey--light);
-  }
+  
 
   .main {
     width: 1152px;
@@ -74,36 +139,7 @@ h1 {
       color: black;
   }
 
-/*Background*/
-view {
-  
-}
-
-/*Terrarium Home*/
-.terrarium {
-  padding: 10px;
-  padding-top: 75px;
-}
-.terrarium-grid {
-  padding: 10px;
-  display: grid;
-  grid-template-columns: 40px auto 40px;
-  grid-column-gap: 10px;
-}
-
-/*Icons*/
-
-#bug {
-  width: 35px;
-}
-#drops {
-  width: 35px;
-}
-#sun {
-  width: 35px;
-}
-svg {
-  display: block;
-  margin: auto;
-  
+/*Terrarium Image*/
+.terrarium_image {
+  padding-top: 100px;
 }
